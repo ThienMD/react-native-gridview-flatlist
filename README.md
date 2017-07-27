@@ -9,9 +9,7 @@ Flat list is more performance, easy customize than listview.
  - Install by npm:
  - npm i react-native-flat-grid-view --save
 
- - See Example
-
-# See examples/ directory
+ See examples/ directory
 
 # Version using Listview
 https://github.com/lucholaf/react-native-grid-view
