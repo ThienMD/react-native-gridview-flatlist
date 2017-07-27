@@ -1,6 +1,6 @@
 {
-  "name": "react-native-grid-view",
-  "version": "0.4.1",
+  "name": "react-native-flat-grid-view",
+  "version": "1.0.0",
   "description": "React Native Grid/Collection View component",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucholaf/react-native-grid-view.git"
+    "url": "https://github.com/ThienMD/react-native-gridview-flatlist.git"
   },
   "keywords": [
     "react-component",
     "react-native",
     "ios"
   ],
-  "author": "Luis Floreani <lucholaf@gmail.com> (https://github.com/lucholaf)",
+  "author": "ThienMD <pvthien1993@gmail.com> (https://github.com/ThienMD)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucholaf/react-native-grid-view/issues"
+    "url": "https://github.com/ThienMD/react-native-gridview-flatlist/issues"
   },
-  "homepage": "https://github.com/lucholaf/react-native-grid-view",
+  "homepage": "https://github.com/ThienMD/react-native-gridview-flatlist",
   "peerDependencies": {
-    "react-native": ">=0.25.1"
+    "react-native": ">=0.43.0"
   }
 }
