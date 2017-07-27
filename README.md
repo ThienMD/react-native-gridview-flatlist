@@ -4,8 +4,8 @@ Inspire reactnative gridview.
 This component allows to display a grid/collection of items with more than one item per row. The items per row is configurable and it uses a 'FlatList' in order to have a proper recycle mechanism.
 
 Flat list is more performance, easy customize than listview.
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
-![Image of react-grid-view](screen.png)
+
+[Image of react-grid-view](screen.png)
 
 # Getting started
  - Install by npm:
