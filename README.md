@@ -5,6 +5,8 @@ This component allows to display a grid/collection of items with more than one i
 
 Flat list is more performance, easy customize than listview.
 
+![Image of react-grid-view](screen.png)
+
 # Getting started
  - Install by npm:
  - npm i react-native-flat-grid-view --save
