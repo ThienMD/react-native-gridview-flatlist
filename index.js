@@ -1,6 +1,6 @@
 'use strict';
 
-import React from 'react';
+import React, {Component} from "react";
 
 import {
   AppRegistry,
@@ -8,9 +8,9 @@ import {
   StyleSheet,
   FlatList,
 } from 'react-native';
+export default class GridView extends Component {
 
-var CollectionView = React.createClass({
-  groupItems: function (items, itemsPerRow) {
+  groupItems (items, itemsPerRow) {
     var itemsGroups = [];
     var group = [];
     items.forEach(function (item) {
@@ -27,8 +27,9 @@ var CollectionView = React.createClass({
     }
 
     return itemsGroups;
-  },
-  renderGroup: function ({ item }) {
+  }
+
+  renderGroup= ({ item })=> {
     var that = this;
     var items = item.map(function (obj, index) {
       return that.props.renderItem(obj, index);
@@ -50,7 +51,7 @@ var CollectionView = React.createClass({
 
       </View>
     );
-  },
+  }
 
   getBlankCell(currentItems, itemsPerRow) {
 
@@ -65,16 +66,18 @@ var CollectionView = React.createClass({
       return arr
     }
 
-  },
-  render: function () {
+  }
+
+  render () {
+    console.log('props is',this.props.items, this.props.itemsPerRow);
     var groups = this.groupItems(this.props.items, this.props.itemsPerRow);
     return (<FlatList
       data={groups}
       {...this.props}
       renderItem={this.renderGroup}
     />);
-  },
-});
+  }
+};
 
 
 var styles = StyleSheet.create({
@@ -86,4 +89,3 @@ var styles = StyleSheet.create({
   }
 });
 
-module.exports = CollectionView;
